@@ -1,0 +1,20 @@
+body {
+    background-image: url(https://www.feiradesantana.ba.gov.br/imagens/noticias/18012024082646.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+}
+
+button {
+    background-color: rgb(110, 173, 91);
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    width: 100px; 
+    height: 40px;      
+    border-radius: 20%
+
+}

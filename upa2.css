@@ -1,0 +1,37 @@
+body{
+    background-image: url(https://i0.wp.com/blog.londrina.pr.gov.br/wp-content/uploads/2025/08-agosto/11.08.25/abertura-UPA-Centro-antiga-Jardim-do-Sol-predio-Mater-Dei-Emerson-Dias_NCom-1.jpg?fit=4800%2C3201&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 150px;
+}
+
+
+       
+#fieldset {
+    background-color: rgba(94, 172, 124, 0.692);
+    height: 200px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border: black solid 3px;;
+}
+
+
+h1{
+    word-break:keep-all;
+}
+
+button {
+    background-color: rgb(253, 74, 74);
+
+}
+#btn{
+    background-color: rgb(133, 227, 82);
+}
+#btn2{
+    background-color: rgb(84, 168, 140);
+}
+#resultado_espera{
+    margin:10px;
+    background-color: rgba(94, 172, 124, 0.709);
+}

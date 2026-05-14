@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> <link rel="stylesheet" href="upa2.css">
+<body>
+     <h1 style="
+        text-align: center;"
+        >Upa-24 horas</h1>  
+        <br>
+
+    <form id="formulario">
+        <fieldset id="fieldset">
+            <legend><h2>Unidade de pronto atendimento</h2></legend>
+
+            <label for="">Nome:
+                <input
+                type="text"
+                placeholder="Nome do paciente"
+                id="nome"
+                class="caixa_entrada"
+                required
+                >
+                <br>
+             <input
+                type="radio"
+                id="masculino"
+                name="sexo"
+                value="masculino"
+                >
+            <label for="masculino">Masculino</label>
+            <input
+                type="radio"
+                id="feminino"
+                name="sexo"
+                value="feminino"
+                >
+            <label for="feminino">Feminino</label>
+            <br><br>
+            <button class="btn" type="submit">Cadastrar</button>
+            <input id="btn" type="button" onclick="listar()" value="Consultar">
+        </fieldset>
+
+        
+    </form>
+
+    <br>
+
+    <div>
+        <fieldset id="resultado_espera">
+            <legend><h3>Fila de Espera</h3></legend>
+
+
+        </fieldset>
+    </div>
+    <br>
+    
+    <input id="btn2" type="button" id="atender" onclick="atender()" value="Atender">
+    
+
+    <script src="upa.js"></script>
+
+</body>
+</html>
