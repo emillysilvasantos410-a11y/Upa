@@ -24,6 +24,16 @@
                 required
                 >
                 <br>
+
+                  <label for="">Idade:
+                <input
+                type="number"
+                placeholder="Idade do paciente"
+                id="idade"
+                class="caixa_entrada"
+                required
+                >
+                <br>
              <input
                 type="radio"
                 id="masculino"
@@ -38,9 +48,33 @@
                 value="feminino"
                 >
             <label for="feminino">Feminino</label>
-            <br><br>
-            <button class="btn" type="submit">Cadastrar</button>
-            <input id="btn" type="button" onclick="listar()" value="Consultar">
+               <input
+                type="radio"
+                id="feminino"
+                name="sexo"
+                value="feminino"
+                >
+            <label for="Outro">Não informado</label>
+            <br>
+                <input
+                type="radio"
+                name="preferencia"
+                id="para_radio"
+                value="Preferencial"
+                required
+                >Preferencial
+
+                <input
+                type="radio"
+                name="preferencia"
+                id="para_radio"
+                value="Comum"
+                requir >Comum
+            
+      <br>
+            
+            <button class="btn" type="submit" onclick="listar()">Cadastrar</button>
+            <input id="btn" type="button" onclick="atender()" value="Consultar">
         </fieldset>
 
         
@@ -56,10 +90,6 @@
         </fieldset>
     </div>
     <br>
-    
-    <input id="btn2" type="button" id="atender" onclick="atender()" value="Atender">
-    
-
     <script src="upa.js"></script>
 
 </body>
